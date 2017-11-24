@@ -8,7 +8,7 @@ scanf ("%d",&i);
 printf ("Cargando\n");
 sleep(3);
 printf ("Cargado\n");
-printf ("Disparano...\n");
+printf ("Disparando...\n");
 sleep(3);
 printf ("El bazooka esta tan confuso que se disparó a si mismo\n");
 return 0;
