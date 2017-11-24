@@ -1,8 +1,13 @@
 #include <stdio.h>
 int main(){
-int contador;
-for(contador=0;contador<=10;contador++){
-printf("%d \n",contador);
+
+int i;
+char c;
+printf("Pulse una tecla para iniciar la bomba \n");
+scanf ("%c",c);  
+for(i=10;i>=0;i--){
+printf("%d \n",i);
+sleep(1);
 }
 printf("REQUETEBOOOMMM!!!");
 return 1;
